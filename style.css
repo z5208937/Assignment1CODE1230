@@ -73,7 +73,7 @@ header
 .button
 {
     margin-top: 30px;
-    margin-left: 600px;
+    margin-left: 1000px;
 }
 
 .btn
@@ -85,7 +85,6 @@ header
     margin-right: 5px;
     font-size: 13px;
     text-transform: uppercase;
-    float: center;
 }
 .btn-one
 {
