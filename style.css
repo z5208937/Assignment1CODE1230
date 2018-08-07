@@ -1,49 +1,121 @@
-body {
-	background: #ECF0F1;
-	color: #17202A;
-	text-align:center;
-	font-family:Helvetica;
-	font-size:24px;
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-	border-style: solid;
-	border-width: 10px;
-	border-color: #17202A;
-	padding: 1%;
-	width: 40%;
-	height:10%;
-	margin:auto;
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
 }
 
-p {
-	font-size:18px;
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
 }
 
-footer {
-	position:fixed;
-	bottom:0;
-	font-size: 14px;
-	padding: 1%;
+.main-nav li.active a
+{
+    border: 1px solid #FFFFFF;
+    
 }
 
-.topnav{
-	position:fixed;
-	top:0;
-	background-color: #DDDDDD;
+.main-nav li a:hover
+{
+    border: 1px solid #FFFFFF;
 }
 
-.topnav a {
-	float:left;
-	display:block;
-	color:#001f3f;
-	text-align: center;
-	padding:14px 16px;
-	text-decoration: none;
-	font-size:20px;
+
+.main-nav li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
 }
 
-.topnav a:hover {
-	background-color: #001f3f;
-	color: #DDDDDD;
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h
+{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    float: center;
+    
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid #FFFFFF;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover
+{
+    background-color: #00FFF;
+    font-family: "Roboto", sans-serif;
+}
+.btn-two:hover
+{
+    background-color: #00FFFF;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+    
 }
