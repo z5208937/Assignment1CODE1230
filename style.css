@@ -85,6 +85,7 @@ header
     margin-right: 5px;
     font-size: 13px;
     text-transform: uppercase;
+    float: center;
 }
 .btn-one
 {
