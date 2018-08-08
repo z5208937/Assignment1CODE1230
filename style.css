@@ -75,6 +75,8 @@ h3 {
     
 }
 
+<head>
+<style>
 divi {
     background-color: 	#000000;
     width: 400px;
@@ -85,7 +87,8 @@ divi {
     margin-right: 75px;
     color: #FFFFFF;
 }
-
+</head>
+</style>
 header
 {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(CityBackground.jpg);
