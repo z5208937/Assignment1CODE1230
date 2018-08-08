@@ -16,7 +16,7 @@ body
 
 .main-nav
 {
-    float: right;
+    margin-right: 10px;
     list-style: none;
     margin-top: 30px;
 }
