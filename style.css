@@ -115,3 +115,9 @@ header
   display: table;
 }
 
+.slider1 {
+    width: 800px;
+    height: 400px;
+    background: url(DDP1.jpg)
+}
+
