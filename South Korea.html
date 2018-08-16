@@ -54,8 +54,41 @@
        oasis to balance the weight between Technology and Nature. </h4>
      <br>
      <br>
-     <div class="slider">
-     </div>
+  <div class="slider1" style="max-width:800px"> 
+    <img class="slider" src="DDP1.jpg" style="width:100%">
+    <img class="slider" src="DDP2.jpg" style="width:100%">
+    <img class="slider" src="DDP3.jpg" style="width:100%">
+    <img class="slider" src="DDP4.jpg" style="width:100%">
+    <img class="slider" src="DDP5.jpg" style="width:100%">
+    <img class="slider" src="DDP6.jpg" style="width:100%">
+    <img class="slider" src="DDP7.jpg" style="width:100%">
+    <img class="slider" src="DDP8.jpg" style="width:100%">
+    <img class="slider" src="DDP9.jpg" style="width:100%">
+    <img class="slider" src="DDP10.jpg" style="width:100%">
+    <img class="slider" src="DDP11.jpg" style="width:100%">
+    <img class="slider" src="DDP12.jpg" style="width:100%">
+    <img class="slider" src="DDP13.jpg" style="width:100%">
+    <img class="slider" src="DDP14.jpg" style="width:100%">
+    <img class="slider" src="DDP15.jpg" style="width:100%">
+    <img class="slider" src="DDP16.jpg" style="width:100%">
+    <img class="slider" src="DDP17.jpg" style="width:100%">
+</div>
+     <script>
+var myIndex = 0;
+Sliderl();
+
+function Sliderl() {
+    var i;
+    var x = document.getElementsByClassName("slider1");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(Slider1, 9000);    
+}
+</script>
      <br>
      <br>
         <div class="rows">
