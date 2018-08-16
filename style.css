@@ -119,7 +119,7 @@ header
     width: 800px; 
     height: 400px;
     overflow: hidden; 
-    position: relative; 
+    position: center; 
 }
 
 .fling-minislide img{ 
