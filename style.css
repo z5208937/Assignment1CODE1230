@@ -124,13 +124,13 @@ header
 }
 
 @keyframes slide{
-      20%{
+      0%{
         backgroud: url(DDP1.jpg);
     }
-      25%{
+      15%{
         backgroud: url(DDP2.jpg);
     }
-      30%{
+      25%{
         backgroud: url(DDP3.jpg);
     }
       35%{
