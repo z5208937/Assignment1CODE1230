@@ -120,15 +120,16 @@ header
     height: 400px;
     padding-bottom: 50%;
     overflow: hidden; 
-    position: center; 
+    position: center;
+    float: center;
 }
 
 .fling-minislide img{ 
     position: absolute; 
     animation: fling-minislide 20s infinite; 
     opacity: 0; 
-    width: 100%; 
-    height: auto;
+    width: 800px; 
+    height: 400px;
 }
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
