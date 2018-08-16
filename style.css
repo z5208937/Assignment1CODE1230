@@ -131,22 +131,13 @@ header
 }
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
-.fling-minislide img:nth-child(17){animation-delay:0s;}
-.fling-minislide img:nth-child(16){animation-delay:5s;}
-.fling-minislide img:nth-child(15){animation-delay:10s;}
-.fling-minislide img:nth-child(14){animation-delay:15s;}
-.fling-minislide img:nth-child(13){animation-delay:25s;}
-.fling-minislide img:nth-child(12){animation-delay:35s;}
-.fling-minislide img:nth-child(11){animation-delay:45s;}
-.fling-minislide img:nth-child(10){animation-delay:55s;}
-.fling-minislide img:nth-child(9){animation-delay:65s;}
-.fling-minislide img:nth-child(8){animation-delay:75s;}
-.fling-minislide img:nth-child(7){animation-delay:85s;}
-.fling-minislide img:nth-child(6){animation-delay:95s;}
-.fling-minislide img:nth-child(5){animation-delay:105s;}
-.fling-minislide img:nth-child(4){animation-delay:115s;}
-.fling-minislide img:nth-child(3){animation-delay:125s;}
-.fling-minislide img:nth-child(2){animation-delay:135s;}
-.fling-minislide img:nth-child(1){animation-delay:145s;}
+.fling-minislide img:nth-child(7){animation-delay:0s;}
+.fling-minislide img:nth-child(6){animation-delay:5s;}
+.fling-minislide img:nth-child(5){animation-delay:10s;}
+.fling-minislide img:nth-child(4){animation-delay:15s;}
+.fling-minislide img:nth-child(3){animation-delay:25s;}
+.fling-minislide img:nth-child(2){animation-delay:35s;}
+.fling-minislide img:nth-child(1){animation-delay:45s;}
+
 
 .fling-minislide {width:80%; height:0px; padding-bottom: 50%; overflow:hidden; position:relative; }
