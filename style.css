@@ -124,26 +124,29 @@ header
 }
 
 @keyframes slide {
-    25%{
+    12.5%{
         background: url(DDP1.jpg);
     }
-    35%{
+    25%{
         background: url(DDp2.jpg);
     }
-    50%{
+    37.5%{
         background: url(DDP3.jpg);
     }
-    65%{
+    50%{
         background: url(DDP4.jpg);
     }
-    75%{
+    62.5%{
         background: url(DDP5.jpg);
     }
-    80%{
+    75%{
         background: url(DDP6.jpg);
     }
-    100%{
+    87.5%{
         background: url(DDP7.jpg);
+    }
+    100%{
+        background: url(DDP8.jpg);
     }
 }
 
