@@ -123,7 +123,7 @@ header
     animation: slide 20s infinite;
 }
 
-@keyframs slide {
+@keyframes slide {
     25%{
         background: url(DDP1.jpg);
     }
