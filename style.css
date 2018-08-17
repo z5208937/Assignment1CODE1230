@@ -116,7 +116,7 @@ header
 }
 
         
-.fling-minislide {width:800px; height:400px; overflow:hidden; position:relative; margin-left: 500px; }
+.fling-minislide {width:800px; height:400px; overflow:hidden; position:relative; margin-left: 500px; margin-right: 500px; }
 .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
