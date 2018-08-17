@@ -131,7 +131,7 @@ header
     margin-right: auto;
 }
 
-.flings-minislide {width:800px; height:400px; overflow:hidden; position:relative; margin: auto;}
+.flings-minislide {width:800px; height:800px; overflow:hidden; position:relative; margin: auto;}
 .flings-minislide img{ position:absolute; animation:flings-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
 @keyframes flings-minislide {25%{opacity:1;} 40%{opacity:0;}} 
