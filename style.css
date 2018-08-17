@@ -122,18 +122,18 @@ header
 
 .slider figure div{
 width: 800px;
-    float: left;
+     margin: 400px;
 }
 .slider figure img{
 width: 800px;
-    float:left;
+    margin: 400px;
 }
 
 .slider figure{
 position: relative;
     width: 800px;
-    margin: 0;
-    left: 0;
+    margin: 400px;
+    left: 400px;
     animation; 40s slidy infinite;
 }
 
