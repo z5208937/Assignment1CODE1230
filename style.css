@@ -140,3 +140,7 @@ header
 .flings-minislide img:nth-child(2){animation-delay:10s;}
 .flings-minislide img:nth-child(1){animation-delay:15s;}
 
+.ut {
+    margin: auto;
+    position: relative;
+}
