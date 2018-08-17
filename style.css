@@ -130,3 +130,13 @@ header
     margin-left: auto;
     margin-right: auto;
 }
+
+.flings-minislide {width:800px; height:400px; overflow:hidden; position:relative; margin: auto;}
+.flings-minislide img{ position:absolute; animation:flings-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes flings-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.flings-minislide img:nth-child(4){animation-delay:0s;}
+.flings-minislide img:nth-child(3){animation-delay:5s;}
+.flings-minislide img:nth-child(2){animation-delay:10s;}
+.flings-minislide img:nth-child(1){animation-delay:15s;}
+
