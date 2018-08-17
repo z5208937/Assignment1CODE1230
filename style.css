@@ -141,6 +141,8 @@ header
 .flings-minislide img:nth-child(1){animation-delay:15s;}
 
 .UT {
+    width: 1000px;
+    height: 1000px;
     margin: auto;
     position: relative;
 }
